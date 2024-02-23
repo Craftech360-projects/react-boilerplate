@@ -13,7 +13,7 @@ if (process.argv.length < 3) {
 const projectName = process.argv[2];
 const currentPath = process.cwd();
 const projectPath = path.join(currentPath, projectName);
-const git_repo = "https://github.com/Craftech360-projects/node-b.git";
+const git_repo = "https://github.com/Craftech360-projects/react-boilerplate.git";
 
 try {
     fs.mkdirSync(projectPath);
